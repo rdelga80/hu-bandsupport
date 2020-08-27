@@ -48,8 +48,14 @@ h1 {
   margin: 0.25em 0;
 }
 
-h2 {
+h2,
+h3 {
   margin: 0.25em 0;
+}
+
+h3 {
+  font-size: 1.8em;
+  text-align: center;
 }
 
 article {
@@ -62,16 +68,26 @@ article {
   flex-wrap: wrap;
 }
 
-.band-info {
+.city-hold {
   flex: 1 0 var(--band-info-flex);
-  padding: 0.25em;
   overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.band-info {
+  padding: 0.25em;
+  overflow-y: scroll;
+  height: 300px;
 }
 
 .band-card {
   padding: 0.5em;
   background-color: #f3f3f3;
   overflow: scroll;
+}
+
+.band-name {
+  font-size: 1.3em;
 }
 
 .band-info a {
